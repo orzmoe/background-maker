@@ -1,8 +1,8 @@
 package background_maker
 
 import (
-	"background-maker/pkg/trianglify"
 	"github.com/fogleman/gg"
+	"github.com/orzmoe/background-maker/pkg/trianglify"
 )
 
 func BackgroundMaker(text string) (*gg.Context, error) {
